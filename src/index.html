@@ -7,8 +7,75 @@
   </head>
   <body>
     <header></header>
-    <main></main>
-    <footer></footer>
+    <h1>FRITITOS BOGOTÁ</h1>
+    <div class="logo"> 
+      <div class="imglogo">
+       <img src="Imgproyect/1.jpg"width=300px > 
+    </div>
+    <br>
+    <main>
+      <h2>Nuestros Productos</h2>
+      <h3>Deditos Congelados</h3>
+      <div class="congelados"> 
+        <img
+         src="Deditos Congelados.jpg"width=300px"height="100px" class="caja" > 
+      </div>
+      <br>
+      <ul> 
+        <li>Queso</li>
+        <li>Jamón y queso</li>
+        <li>Tocineta y queso</li>
+        <li>Bocadillo y queso</li>
+        <li>Nutella</li>
+        <li>Arequipe</li>
+      </ul>
+      <button> Comprar </button> 
+      <h3>Deditos Fritos</h3>
+      <div class="fritos"> 
+        <img
+         src="Deditos fritos.jpg"width=300px"height="100px"  class="caja">
+      </div> 
+      <br>
+      <ul> 
+        <li>Queso</li>
+        <li>Jamón y queso</li>
+        <li>Tocineta y queso</li>
+        <li>Bocadillo y queso</li>
+        <li>Nutella</li>
+        <li>Arequipe</li>
+      </ul>
+      <button> Comprar </button> 
+      <h3>Bebidas</h3>
+      <div class="bebidas"> 
+        <img
+         src="Bebidas.jpg"width=300px"height="100px" class="caja">
+      </div>
+      <ul> 
+        <li>Refresco</li>
+        <li>Malta</li>
+        <li>Jugo</li>
+        <li>Agua</li>
+      </ul>
+       <button> Comprar </button> 
+      <form id="creditCardnumber" class="form">
+        <label for="numerodetdc">Número de Tarjeta</label>
+        <input id= "numerodetdc" type="text" placeholder="Ingresa tu número de tarjeta" name="numerodetdc" maxlength="16">
+        <label for="fechadevcto">MM/AA</label>
+        <input id= "fechadevcto" type="text" placeholder="Ingresa fecha de vencimiento">
+        <label for="codigodeseguridad">CVV</label>
+        <input id= "codigodeseguridad" type="text" placeholder="Ingresa Codigo de seguridad">
+        <label for="nombres">Nombres</label>
+        <input id= "nombres" type="text" placeholder="Ingresa tus nombres">
+        <label for="apellidos">Apellidos</label>
+       <input id= "apellidos" type="text" placeholder="Ingresa tus apellidos"> 
+        <button type="button" id="enviar">ValidarTDC</button>
+      </form>
+    </main>
+    <footer>
+      <section class="pie">
+      <p>Frititos Bogotá 2019</p>
+    </section> 
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
