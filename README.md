@@ -13,7 +13,8 @@ Se trata de una pagina web de un restaurante de deditos de diferentes sabores qu
 
   Primer prototipo en papel.
   
-  
+  ![Prototipo Lapiz y papel](https://user-images.githubusercontent.com/108738816/181621972-f10f51f2-c2cb-4208-985a-2982b7060f38.jpg)
+
   
   Feedback recibido indicando las mejoras a realizar: Mejorar el formulario de información de tarjeta en cuanto a los colores utilizados y los campos del mismo.
   
