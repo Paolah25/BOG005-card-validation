@@ -23,10 +23,11 @@ Se trata de una pagina web de un restaurante de deditos de diferentes sabores qu
   
   
   
-  
-  
+ 
   
   Imagen del prototipo final.
+  
+  
   ![Prototipo1](https://user-images.githubusercontent.com/108738816/180660227-40d5cabe-4e80-4293-87c9-a2fe43afcdff.png)
   ![formulario prototipo1](https://user-images.githubusercontent.com/108738816/180660230-c5d7a7c9-1a43-479a-901f-eaec57d972ec.png)
 
