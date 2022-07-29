@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
     <h1>FRITITOS BOGOTÁ</h1>
-    <div class="logo"> 
-      <div class="imglogo">
-       <img src="Imgproyect/1.jpg"width=300px > 
+    <div class="logo">
+      <div class="logoprincipal">
+        <img src="img/1.jpg" width=300px>
+      </div>
+      <br>
+  </header>
+  <main>
+    <h2>Nuestros Productos</h2>
+    <div class="contenedor">
+      <div class="producto">
+        <figure>
+          <h3>Deditos Congelados</h3>
+          <img src="img/2.jpg">
+        </figure>
+        <br>
+        <p>
+        <ul class="congelados">
+          <li>Queso</li>
+          <li>Jamón y queso</li>
+          <li>Tocineta y queso</li>
+          <li>Bocadillo y queso</li>
+          <li>Nutella</li>
+          <li>Arequipe</li>
+        </ul>
+        </p>
+        <button> Comprar </button>
+      </div>
+      <div class="producto">
+        <figure>
+          <h3>Deditos Fritos</h3>
+          <img src="img/5.jpg">
+          <br>
+          <p>
+          <ul class="fritos">
+            <li>Queso</li>
+            <li>Jamón y queso</li>
+            <li>Tocineta y queso</li>
+            <li>Bocadillo y queso</li>
+            <li>Nutella</li>
+            <li>Arequipe</li>
+          </ul>
+          </p>
+        </figure>
+        <button> Comprar </button>
+      </div>
+      <div class="producto">
+        <figure>
+          <h3>Bebidas</h3>
+          <img src="img/4.webp">
+        </figure>
+        <p>
+        <ul class="bebidas">
+          <li>Refresco</li>
+          <li>Malta</li>
+          <li>Jugo</li>
+          <li>Agua</li>
+        </ul>
+        </p>
+        <button> Comprar </button>
+      </div>
     </div>
-    <br>
-    <main>
-      <h2>Nuestros Productos</h2>
-      <h3>Deditos Congelados</h3>
-      <div class="congelados"> 
-        <img
-         src="Deditos Congelados.jpg"width=300px"height="100px" class="caja" > 
-      </div>
-      <br>
-      <ul> 
-        <li>Queso</li>
-        <li>Jamón y queso</li>
-        <li>Tocineta y queso</li>
-        <li>Bocadillo y queso</li>
-        <li>Nutella</li>
-        <li>Arequipe</li>
-      </ul>
-      <button> Comprar </button> 
-      <h3>Deditos Fritos</h3>
-      <div class="fritos"> 
-        <img
-         src="Deditos fritos.jpg"width=300px"height="100px"  class="caja">
-      </div> 
-      <br>
-      <ul> 
-        <li>Queso</li>
-        <li>Jamón y queso</li>
-        <li>Tocineta y queso</li>
-        <li>Bocadillo y queso</li>
-        <li>Nutella</li>
-        <li>Arequipe</li>
-      </ul>
-      <button> Comprar </button> 
-      <h3>Bebidas</h3>
-      <div class="bebidas"> 
-        <img
-         src="Bebidas.jpg"width=300px"height="100px" class="caja">
-      </div>
-      <ul> 
-        <li>Refresco</li>
-        <li>Malta</li>
-        <li>Jugo</li>
-        <li>Agua</li>
-      </ul>
-       <button> Comprar </button> 
-      <form id="creditCardnumber" class="form">
+    <form id="creditCardnumber" class="form">
+      <div>
+        <br>
+        <p> <strong> Información de Tarjeta </strong> </p>
         <label for="numerodetdc">Número de Tarjeta</label>
-        <input id= "numerodetdc" type="text" placeholder="Ingresa tu número de tarjeta" name="numerodetdc" maxlength="16">
+        <input id="numerodetdc" type="text" placeholder="Ingresa tu número de tarjeta" name="numerodetdc"
+          maxlength="16">
+      </div>
+      <div>
         <label for="fechadevcto">MM/AA</label>
-        <input id= "fechadevcto" type="text" placeholder="Ingresa fecha de vencimiento">
-        <label for="codigodeseguridad">CVV</label>
-        <input id= "codigodeseguridad" type="text" placeholder="Ingresa Codigo de seguridad">
+        <input id="fechadevcto" type="text" placeholder="Ingresa fecha de vencimiento">
+      </div>
+      <div>
+        <label for="codigodeseguridad">Código CVV</label>
+        <input id="codigodeseguridad" type="text" placeholder="Ingresa Codigo de seguridad">
+      </div>
+      <div>
         <label for="nombres">Nombres</label>
-        <input id= "nombres" type="text" placeholder="Ingresa tus nombres">
+        <input id="nombres" type="text" placeholder="Ingresa tus nombres">
+      </div>
+      <div>
         <label for="apellidos">Apellidos</label>
-       <input id= "apellidos" type="text" placeholder="Ingresa tus apellidos"> 
-        <button type="button" id="enviar">ValidarTDC</button>
-      </form>
-    </main>
-    <footer>
-      <section class="pie">
+        <input id="apellidos" type="text" placeholder="Ingresa tus apellidos">
+      </div>
+      <button type="button" id="enviar" class="validarpago">ValidarTDC</button>
+    </form>
+  </main>
+  <footer class="footer">
+    <section id="contacto" class="contact">
+      <p>Contácto: +57 319 499 4867</p>
+      <p>frititosbogota@gmail.com</p>
       <p>Frititos Bogotá 2019</p>
-    </section> 
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+    </section>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

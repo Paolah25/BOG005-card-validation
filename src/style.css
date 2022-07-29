@@ -1,45 +1,29 @@
-
 body {
-background-color: rgb(240, 230, 145);
+  background-color: rgb(242, 183, 5);
 }
 
-h1{
+h1, h2, h3 {
   font-size: 30px;
   text-align: center;
 }
-h2,h3{
-  font-size: 20px;
-  text-align: center;
+
+.logoprincipal img {
+  height: auto;
+  width: 200px;
+  float: left;
+  margin: 10px 20px;
+  border-radius: 100px;
 }
-
-
-h1{
-    text-align: center;
-  }
-  h2{
-    text-align: center;
-  }
-  h3{
-    text-align: center;
-  }
-
-  div.imglogo img {
-    height: auto;
-    width: 200px;
-    float: left;
-    margin: 10px 20px;
-    border-radius: 50%;
-  }
 
 div.fritos {
   height: 100%;
   width: 100%;
-  background-color: rgb(248, 193, 74);
+  background-color: rgb(252, 251, 248);
   margin: a;
   padding: 50px;
   display: inline;
   float: left;
-  
+
 }
 
 div.fritos img {
@@ -47,29 +31,29 @@ div.fritos img {
   width: 200px;
   float: left;
   margin: 10px 20px;
-  border-radius: 40%;
+  
 }
 
 div.congelados {
   height: 100%;
   width: 100%;
-  background-color: rgb(248, 193, 74);
+  background-color: rgb(252, 251, 250);
   margin: a;
   padding: 50px;
   display: inline;
   float: left;
 
-  
 }
+
 div.bebidas {
   height: 100%;
   width: 100%;
-  background-color: rgb(248, 193, 74);
+  background-color: rgb(250, 249, 246);
   margin: a;
   padding: 50px;
   display: inline;
   float: left;
- 
+
 }
 
 section.pie p {
@@ -78,6 +62,92 @@ section.pie p {
 
 }
 
+.form {
+
+  background-color: rgb(242, 230, 216);
+  height: 350px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 590px;
+  border-radius: 30px;
+  margin-top: 400px;
+
+}
+
+.validarpago {
+
+  background-color: rgb(64, 18, 18);
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 40px;
+  color: rgb(252, 239, 239);
+
+}
+
+p {
+
+text-align: center;
+
+}
+
+.producto {
+
+  margin: 10px;
+  padding: 1px;
+  background-color: blanchedalmond;
+  text-align: center;
+  height: 500px;
+  
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 300px;
+  width: auto;
+  
+}
+
+.producto img {
+
+  width: 200px;
+
+  
+}
+
+header {
+
+  align-items: center;
+  background-color: beige;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  
+}
+
+.producto.ul.li {
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+
+  
+  
+}
+
+section.contact {
+
+  align-items: center;
+  justify-content: center;
+  
+}
 
 
 
