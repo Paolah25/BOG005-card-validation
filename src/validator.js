@@ -1,9 +1,7 @@
 const validator = {
   isValid: function (creditCardNumber) {
-    console.log("function", creditCardNumber)
     let numbersArray = creditCardNumber.split("").reverse().join("");
     let reverseNumbers = parseInt(creditCardNumber);
-    console.log(numbersArray);
     let operAccion = 0;
     let suma = 0
 
@@ -14,11 +12,9 @@ const validator = {
 
         if (i % 2 != 0) {
           let numbTwo = numbersArray[i] * 2;
-          console.log("numbtwo", numbTwo);
           if (numbTwo >= 10) {
             let cambString = numbTwo.toString();
             let divide = cambString.split("");
-            console.log("divide", divide);
             suma = parseInt(divide[0]) + parseInt(divide[1]);
             operAccion = operAccion + suma;
 
@@ -32,7 +28,6 @@ const validator = {
         }
       }
 
-      console.log(operAccion);
       if (operAccion % 10 == 0) {
        return true;
       } else {
